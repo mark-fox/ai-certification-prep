@@ -87,7 +87,7 @@ def delete_by_phrase():
 
 def main():
     while True:
-        print("\n[1] Add note  [2] View notes  [3] Delete note [4] Delete by phrase [5] Quit")
+        print("\n[1] Add note \n[2] View notes \n[3] Delete by number \n[4] Delete by phrase \n[5] Quit")
         choice = input("Choose an option: ")
         if choice == "1":
             add_note()
