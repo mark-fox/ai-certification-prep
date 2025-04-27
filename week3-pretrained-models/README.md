@@ -44,3 +44,29 @@ Each task was performed with a few lines of Python using Hugging Face's `pipelin
 
 ```python
 [{'label': 'POSITIVE', 'score': 0.9998}]
+```
+
+---
+
+## 🖼️ Image Models (New)
+
+| Task | Model/Method |
+|-----|--------------|
+| Image Classification | `pipeline('image-classification')` |
+| Image Captioning | `pipeline('image-to-text')` |
+
+We extended Week 3 to include simple image-based AI tasks:
+- 🏷️ **Image Classification**: Predict the main object(s) in a photo
+- 🖼️ **Image Captioning**: Generate a full natural-language description for an input image
+
+These were performed using pre-trained models from Hugging Face without any fine-tuning.
+
+---
+
+## 📁 Updated Files
+
+- `text-models.ipynb` — NLP tasks (sentiment, summarization, question answering)
+- `image-models.ipynb` — Computer vision tasks (classification, captioning)
+- `sample-images/` — Folder containing example images for testing
+
+---
