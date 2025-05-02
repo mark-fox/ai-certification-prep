@@ -80,6 +80,40 @@ Content-Type: application/json
 
 ---
 
-## 🖼️ Coming Soon: Image Support
+## 🖼️ Image Classification API
 
-This API will be extended to support **image classification and captioning** as an additional endpoint.
+This project also includes an endpoint that accepts image uploads and returns predicted labels and confidence scores.
+
+---
+
+### 📤 Sample Usage
+
+```python
+import requests
+
+with open("sample-images/your_image.jpg", "rb") as img:
+    response = requests.post("http://127.0.0.1:5000/classify-image", files={"image": img})
+    print(response.json())
+```    
+---
+
+### 🔁 Example Output
+
+```json
+[
+  {
+    "label": "Egyptian cat",
+    "score": 0.9821
+  },
+  {
+    "label": "tabby cat",
+    "score": 0.0123
+  }
+]
+```
+## 🧪 Endpoints Summary
+
+| Method | Endpoint           | Description                    |
+|--------|--------------------|--------------------------------|
+| POST   | `/analyze`         | Text sentiment analysis        |
+| POST   | `/classify-image`  | Image classification (upload) |
