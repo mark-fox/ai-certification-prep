@@ -1,3 +1,31 @@
 week1-quicknotes/notes.txt
 week2-data-wrangling/venv/
 freshvenv/
+
+# Week 5 - Flask virtual environment
+week5-final-project/backend/venv/
+week5-final-project/backend/__pycache__/
+week5-final-project/backend/*.pyc
+week5-final-project/backend/*.pyo
+week5-final-project/backend/.env
+
+# Week 5 - React dependencies and build
+week5-final-project/frontend/node_modules/
+week5-final-project/frontend/build/
+week5-final-project/frontend/.env
+week5-final-project/frontend/.cache/
+week5-final-project/frontend/.DS_Store
+
+# Common junk
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+**/venv/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
