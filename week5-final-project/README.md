@@ -3,6 +3,8 @@
 This is a full-stack AI-powered web application built as the final project for a 5-week AI engineering prep course.  
 It uses pre-trained Hugging Face models for both **text sentiment analysis** and **image classification**, wrapped in a Flask API and served through a modern React frontend.
 
+![Demo](./demo.gif)
+
 ---
 
 ## ✨ Features
